@@ -1,0 +1,369 @@
+.marg{
+    margin: 0.75rem 0.75rem 0 0.75rem;
+}
+
+/* 活动 */
+.act{
+    
+}
+.act .shadow{
+	-webkit-box-shadow: 0px 2px 8px rgba(0,0,0,.2);
+    box-shadow: 0px 2px 8px rgba(0,0,0,.2);
+}
+.act .banner-pig{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.act .banner-pig img{
+	width: 100%;
+	float: left;
+}
+.act .banner-pig .banner-b{
+	position: absolute;
+    bottom: 0;
+    left: 0.75rem;
+    right: 0.75rem;
+    height: 1.5rem;
+    background: #fff;
+    border-radius: 6px 6px 0 0;
+}
+.act .form-wrap{
+	background: #fff;
+	margin: -1.5rem 0.75rem 0;
+	border-radius: 6px;
+    padding: 30px 20px;
+}
+.act .form-wrap .cell-title {
+    text-align: center;
+    line-height: 30px;
+    font-size: 1rem;
+    color: #0C8E3B;
+    margin-bottom: 20px;
+}
+.act .form-wrap .cell-title span {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.act .form-wrap .cell{
+	margin-bottom: 1rem;
+	font-size: 0.75rem;
+}
+.act .form-wrap .cell input{
+	width: 100%;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	margin: 0;
+	padding: 0 1rem 0 1.8rem;
+}
+.act .form-wrap .address input{
+    background: url(../img/act/bargain/address.png) no-repeat 0.5rem;
+    background-size: 0.8rem;
+}
+.act .form-wrap .phone input{
+	background: url(../img/act/bargain/phone.png) no-repeat 0.5rem;
+    background-size: 0.8rem;
+}
+.act .form-wrap .cell .sub {
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.8rem;
+    background: url(../img/act/bargain/Consultation-sub.png) no-repeat;
+    background-size: 100% 100%;
+}
+.act .car-list{
+	
+}
+.act .car-list .title{
+	height: 2rem;
+	background: url(../img/act/bargain/car-list-title.png) no-repeat center;
+	background-size: 9.3rem;
+	margin-bottom: 0.5rem;
+}
+.act .car-li{
+	height: 8rem;
+	margin-bottom: 0.75rem;
+	background: #fff;
+}
+.act .car-li .car-img{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.act .car-li .car-img .label{
+	position: absolute;
+	left: 0.5rem;
+	z-index: 1;
+	top: 0;
+	width: 2.2rem;
+	height: 2.2rem;
+	box-sizing: border-box;
+	padding: 0.2rem 0;
+	background: url(../img/act/bargain/car-label.png) no-repeat top;
+	background-size: 2.2rem;
+}
+.act .car-li .car-img .label p{
+	line-height: 0.7rem;
+	font-size: 0.6rem;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+.act .car-li .car-img img{
+	width: 100%;
+}
+.act .car-li .car-info{
+	width: 50%;
+	float: left;
+}
+.act .car-li .car-title{
+	padding-top: 0.75rem;
+	padding-right: 0.5rem;
+	color: #363636;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+.act .car-li .car-tips{
+	color: #808080;
+    font-size: 0.6rem;
+    margin-bottom: 0.3rem;
+}
+.act .car-li .car-price{
+	color: #FF6156;
+    font-size: 0.7rem;
+}
+.act .car-li .car-price span{
+	color: #FF6156;
+	padding: 0 0.2rem;
+	font-weight: bold;
+    font-size: 1rem;
+}
+.act .car-li .car-btn{
+	width: 6.5rem;
+	height: 1.6rem;
+	margin-top: 0.3rem;
+	line-height: 1.6rem;
+	background: #119938;
+	border-radius: 1.7rem;
+	text-align: center;
+	color: #fff;
+    font-size: 0.6rem;
+}
+.act .hot-car{
+	overflow: hidden;
+}
+.act .hot-car img{
+	width: 100%;
+}
+.act .download-app{
+	overflow: hidden;
+}
+.act .download-app img{
+	width: 100%;
+}
+.act .foot-pig{
+	width: 100%;
+}
+.act .foot-pig img{
+	width: 100%;
+}
+
+
+
+
+/* 砍价活动 */
+.bargain{
+    
+}
+.bargain .top-tips{
+    background: url(../img/act/bargain/top-tips.png) no-repeat left 0.1rem;
+    background-size: 0.8rem;
+}
+.bargain .top-tips p{
+    line-height: 1rem;
+    font-size: 0.6rem;
+    color: #9C9C9C;
+    padding-left: 1rem;
+}
+.bargain .cont{
+	background: #fff;
+	border-radius: 0.75rem;
+	padding: 0.75rem;
+}
+.bargain .cont .car{
+	width: 100%;
+	height: 4.7rem;
+	display: flex;
+}
+.bargain .cont .car-img{
+	width: 5.5rem;
+	height: 4.2rem;
+	overflow: hidden;
+}
+.bargain .cont .car-img img{
+	width: 100%;
+}
+.bargain .cont .car-info{
+	flex: 1;
+	padding-left: 0.5rem;
+}
+.bargain .cont .car-title{
+	height: 2rem;
+	color: #363636;
+	font-size: 0.75rem;
+	font-weight: bold;
+	margin-bottom: 0.4rem;
+}
+.bargain .cont .car-tips{
+	color: #808080;
+	font-size: 0.6rem;
+	margin-bottom: 0.3rem;
+}
+.bargain .cont .car-price{
+	color: #999999;
+	font-size: 0.6rem;
+}
+.bargain .cont .car-price span{
+	color: #FF6156;
+	font-size: 1rem;
+	padding-left: 0.3rem;
+}
+.bargain .cont .car-price span font{
+	font-size: 0.6rem;
+}
+.bargain .form{
+	margin: 0 0.75rem;
+	border-top: 1px solid #F7F7F7;
+	margin-bottom: 1.25rem;
+}
+.bargain .form .cell{
+	font-size: 0.8rem;
+	background: #F7F7F7;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	padding: 0 0.75rem;
+	display: flex;
+	border-radius: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+.bargain .form .cell .hd{
+	color: #363636;
+	width: 2.8rem;
+	font-weight: bold;
+}
+.bargain .form .cell .bd{
+	flex: 1;
+	color: #333333;
+	font-size: 0.75rem;
+}
+.bargain .form .cell .bd input{
+	width: 100%;
+	height: 100%;
+	padding: 0 0.75rem 0 0;
+	border: 0;
+	margin: 0;
+	background: #F7F7F7;
+}
+.bargain .van-button--large{
+	border-radius: 2.2rem;
+	height: 2.2rem;
+	line-height: 2.2rem;
+}
+.bargain .van-button--primary{
+	background-color: #20CEB3;
+	border: 1px solid #20CEB3;
+}
+.bargain .van-button--default{
+	border: 1px solid #20CEB3;
+	color: #20CEB3;
+}
+
+
+/* 邀请好友砍价 */
+.bargain .time{
+	color: #FF6156;
+	font-size: 0.75rem;
+	text-align: center;
+}
+.bargain .progress{
+	padding: 0.8rem 0 0.2rem;
+}
+.bargain .progress .van-progress{
+	margin: 0.6rem 0;
+}
+.bargain .progress .info{
+	height: 1rem;
+	line-height: 1rem;
+	overflow: hidden;
+	font-size: 0.6rem;
+}
+.bargain .progress .info span:nth-child(1){
+	float: left;
+	color: #20CEB3;
+}
+.bargain .progress .info span:nth-child(2){
+	float: right;
+	color: #999999;
+}
+.bargain .price-tips{
+	text-align: center;
+	font-size: 0.75rem;
+}
+.bargain .price-tips span{
+	color: #FF6156;
+	font-size: 1.25rem;
+	padding-left: 0.4rem;
+}
+.bargain .price-tips span font{
+	font-size: 0.6rem;
+	padding: 0 0.1rem;
+}
+.bargain .help-list{
+	border-top: 1px solid #F4F4F4;
+	margin-top: 1rem;
+	color: #999999;
+}
+.bargain .help-li{
+	font-size: 0.6rem;
+	padding-top: 0.65rem;
+}
+.bargain .help-li:nth-child(1){
+	color: #000;
+}
+.bargain .help-li .date{
+	font-size: 0.55rem;
+	margin-bottom: 0.1rem;
+}
+.bargain .help-li .text{
+	
+}
+.bargain .tips-browser-share{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: url(../img/act/bargain/guidewxf-m.png) rgba(0,0,0,.8) no-repeat 50% 85%;
+	background-size: 80%;
+}
+.bargain .tips-wechat-share{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: url(../img/act/bargain/tips-wechat-share.png) rgba(0,0,0,.7) no-repeat top right;
+	background-size: 80%;
+}
+.bargain .bargain-end{
+	color: #20CEB3;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.8rem;
+}
